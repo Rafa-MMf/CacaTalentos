@@ -1,0 +1,137 @@
+.principal {
+    padding: 24px 16px; 
+}
+
+.titulo-pagina {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.box {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #2C343A;
+}
+
+.box--destaque {
+    margin-bottom: 16px;
+}
+
+.box__perfil {
+    color: #bec3c7;
+    font-size: 0.9rem;
+    
+}
+
+.box__perfil--conteudo {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.box__imagem {
+    max-width: 220px;
+    background: var(--preto);
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.principal--botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #22282c;
+    color: var(--cinza);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    justify-self: end;
+}
+
+.principal--botao img {
+    max-width: 20px;
+    margin-left: 10px;
+}
+
+hr {
+    width: 100%;
+    margin: 15px 0;
+}
+
+.principal--nome {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.endereco--cidade, .endereco--estado, .endereco--rua, .principal--flex2 span, .endereco--num, .principal--cnpj, .info--sobre {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.principal--flex {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+
+.barra {
+    margin: 0 5px;
+}
+
+.principal--flex2 {
+    display: flex;
+    width: 200px;
+}
+
+.principal--flex2 span {
+    margin-right: 10px;
+}
+
+.principal--info {
+    margin: 15px;
+}
+
+.info--sobre {
+    border-bottom: 2px solid;
+    width: 175px;
+    padding-bottom: 3px;
+}
+
+.principal--info p {
+    line-height: 1.4em;
+    font-size: 1.1em;
+}
+
+
+
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .box__perfil--conteudo {
+        flex-direction: row;
+    }
+
+    .box__perfil {
+        grid-area: box__perfil;
+    }
+    
+
+    .principal {
+        padding: 16px 60px;
+    }
+    
+    .box--destaque {
+        margin-bottom: 0;
+    }
+    
+}
+

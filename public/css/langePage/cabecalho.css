@@ -1,0 +1,52 @@
+.menu {
+    position: fixed;
+    width: 100%;
+    z-index: 500;
+    transition: background-color 1s ease 0s;
+    background: url(../../img/fundo-textura.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.menu-container {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 60px;
+}
+
+.cabecalho__logo {
+    width: 70px;
+    margin-left: 90px;
+}
+
+.menu-items {
+    display: flex;
+    color: var(--branco);
+}
+
+.menu-items li {
+    list-style: none;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-size: 1rem;
+    padding: 10px;
+}
+
+.menu-items a:hover {
+    border-bottom: 2px solid var(--branco-principal);
+}
+
+.menu .logo {
+    order: 1;
+    color: var(--branco-principal);
+    font-size: 2rem;
+}
+
+.visible {
+    backdrop-filter: brightness(0.6);
+}

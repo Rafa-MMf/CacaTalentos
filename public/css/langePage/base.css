@@ -1,0 +1,30 @@
+@import url(../../css/langePage/cabecalho.css);
+@import url(../../css/langePage/apresentacao.css);
+
+@import url(../../css/langePage/rodape.css);
+
+.titulo {
+    font-size: var(--tamanho-titulo);
+}
+.titulo--destaque {
+    font-family: var(--fonte-titulo-destaque);
+    color: var(--preto);
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: var(--peso-titulo-destaque);
+
+    display: block;
+
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+}
+
+.alinhamento--esquerda {
+    text-align: left;
+}
+.alinhamento--meio {
+    text-align: center;
+}
+
+.texto {
+    line-height: 26px;
+}

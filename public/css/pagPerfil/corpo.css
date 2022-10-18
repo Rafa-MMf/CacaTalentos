@@ -1,0 +1,122 @@
+.principal {
+    padding: 24px 16px; 
+}
+
+.titulo-pagina {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 30px 0;
+}
+
+.box {
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #2C343A;
+}
+
+.box--destaque {
+    margin-bottom: 16px;
+}
+
+.box__perfil {
+    color: #bec3c7;
+    font-size: 0.9rem;
+    
+}
+
+.box__perfil--conteudo {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.box__imagem {
+    max-width: 220px;
+    background: var(--preto);
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.principal--botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #22282c;
+    color: var(--cinza);
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    justify-self: end;
+}
+
+.principal--botao img {
+    max-width: 20px;
+    margin-left: 10px;
+}
+
+hr {
+    width: 100%;
+}
+
+.principal--nome {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.principal--idade, .endereco--cidade, .endereco--estado, .principal--genero, .principal--peso, .principal--altura, .principal--link {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.principal--flex {
+    display: flex;
+    justify-content: space-between;
+    width: 220px;
+}
+
+.barra {
+    margin: 0 5px;
+}
+
+.principal--flex2 {
+    display: flex;
+    width: 150px;
+    justify-content: space-between;
+}
+
+.principal--link {
+    margin-top: 20px;
+}
+
+.principal--link a {
+    color: var(--bolas);
+}
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .box__perfil--conteudo {
+        flex-direction: row;
+    }
+
+    .box__perfil {
+        grid-area: box__perfil;
+    }
+    
+
+    .principal {
+        padding: 16px 60px;
+    }
+    
+    .box--destaque {
+        margin-bottom: 0;
+    }
+    
+}
+

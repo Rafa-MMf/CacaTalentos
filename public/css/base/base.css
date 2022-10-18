@@ -1,0 +1,21 @@
+@import url(_reset.css);
+@import url(_variaveis.css);
+
+
+body {
+    font-family: var(--fonte-corpo);
+    font-size: var(--tamanho-corpo);
+    color: var(--cinza);
+
+    /*background: url(../../img/fundo-textura.png), url(../../img/fundo-linhas.png);*/
+    background-position: center;
+}
+
+.container {
+    max-width: 1330px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+:root {
+
+    --preto: #202020;
+    --preto-sombra: #0000000F;
+    --cinza: #909090;
+    --branco: #FFFFFF;
+    --amarelo: #FFCB47;
+    --amarelo-sombra: #FFCB473D;
+
+    --bolas: #E6C298;
+    --rosa-claro: #E6C2B3 ;
+    --roxo: #63338F ;
+    --azul: #34338F ;
+    --cinza-escuro: #242A38 ; 
+    
+    --sombra-preta: 10px 10px 30px var(--preto-sombra);
+    --sombra-amarela: 10px 10px 30px var(--amarelo-sombra);
+
+    --fonte-corpo: 'Montserrat', sans-serif;
+    --fonte-titulo-destaque: 'Elsie Swash Caps', cursive;
+
+    --peso-titulo-destaque: 900;
+    --peso-botao: 700;
+    --peso-destaque: 700;
+
+    --tamanho-corpo: 1rem;
+    --tamanho-titulo: 1.375rem;
+    --tamanho-titulo-destaque: 4rem;
+    --tamanho-destaque: 1.375rem;
+
+}
